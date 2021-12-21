@@ -1,0 +1,22 @@
+# Server conf
+
+server:
+  port: 9000
+
+  # App conf
+
+spring:
+  application:
+    name: api
+
+  # Mysql conf
+  datasource:
+    url: jdbc:mysql://localhost:3306/testDemo
+    username: root
+    password: root
+  # Jpa conf
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
